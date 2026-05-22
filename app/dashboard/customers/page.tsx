@@ -1,7 +1,5 @@
 import CustomersTable from "@/app/ui/customers/table";
 import { fetchFilteredCustomers } from "@/app/lib/data";
-import { Suspense } from "react";
-import { SearchParams } from "next/dist/shared/lib/router/utils/parse-path";
 
 interface PageProps {
   searchParams?: { [key: string]: string | string[] | undefined };
